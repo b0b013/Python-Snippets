@@ -9,7 +9,7 @@ import sys
 network =  sys.argv[1]
 ip_start = int(sys.argv[2])
 ip_end = int(sys.argv[3]) + 1
-#file =  open(sys.argv[4],"w")
+f =  open(sys.argv[4],"w")
 for x in range(ip_start, ip_end):
-	print network + '.' + str(x)
-#f.close()
+	f.write(network + '.' + str(x) + '\n')
+f.close()
