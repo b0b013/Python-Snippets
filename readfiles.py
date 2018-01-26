@@ -2,7 +2,7 @@
 
 import sys
 # listips.py
-# usage: listips.py filename
+# usage: readfile.py filename
 # reads file line by line and prints it
 #***************************************
 
