@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 import sys
-# listips.py
+# readfile.py
 # usage: readfile.py filename
 # reads file line by line and prints it
 #***************************************
