@@ -3,7 +3,7 @@
 import sys
 # genips.py
 # usage: genips.py network ip_start ip_end filename
-# reads generates ip list
+# generates ip list
 # really basic. think class C network for now.
 #***************************************
 network =  sys.argv[1]
